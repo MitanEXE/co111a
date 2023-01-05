@@ -262,7 +262,7 @@
 </code></pre>
 
 #### Xor
-###### HDL 撰寫
+###### HDL
 <pre><code>    Nand (a=a, b=b, out= AnandB);
     Or   (a=a, b=b, out= AorB);
     And  (a=AnandB, b=AorB, out=out);
